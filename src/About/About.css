@@ -1,0 +1,36 @@
+.about-section {
+  background: black;
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #7c1cdc;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(124, 28, 220, 0.1);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(124, 28, 220, 0.5);
+}
+
+.highlight {
+  color: #b366ff;
+  font-weight: bold;
+}
