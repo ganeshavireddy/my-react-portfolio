@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profileImage from "./profile.jpg"; // Your local image
+import profileImage from "./profile.jpg";  
 
 function Home() {
   return (
@@ -15,8 +15,7 @@ function Home() {
         </h1>
         <p>
           I’m a <strong>React.js Frontend Developer</strong> passionate about
-          creating clean, user-friendly, and responsive web applications with a
-          focus on elegant UI and smooth UX.
+          creating clean, user-friendly, and responsive web applications.
         </p>
       </div>
     </div>
