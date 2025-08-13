@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Main container with image on left, content on right */
+ 
 .home-container {
   display: flex;
   align-items: center;
@@ -17,14 +17,13 @@ body {
   color: white;
 }
 
-/* Quick smooth animation */
+ 
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
-/* Profile image styling */
+ 
 .profile-image img {
   width: 300px;
   height: 300px;
@@ -39,7 +38,7 @@ body {
   transform: scale(1.08);
 }
 
-/* Text content */
+ 
 .home-content {
   max-width: 600px;
 }
@@ -58,8 +57,7 @@ body {
   line-height: 1.8;
   opacity: 0.95;
 }
-
-/* Mobile responsiveness */
+ 
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;

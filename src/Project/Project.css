@@ -12,14 +12,14 @@
   color: #a855f7;
 }
 
-/* Grid layout */
+ 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
-/* Project card */
+ 
 .project-card {
   background: #1a1a1a;
   border-radius: 10px;
@@ -34,7 +34,7 @@
   box-shadow: 0px 8px 25px rgba(168, 85, 247, 0.6);
 }
 
-/* Content section */
+ 
 .project-content {
   display: flex;
   flex-direction: column;
@@ -51,8 +51,7 @@
   font-size: 0.9rem;
   color: #ccc;
 }
-
-/* Tech stack badges */
+ 
 .project-tech {
   display: flex;
   flex-wrap: wrap;
