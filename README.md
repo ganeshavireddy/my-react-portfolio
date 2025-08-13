@@ -1,12 +1,28 @@
-# React + Vite
+# 🚀 My React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated portfolio website built with **React.js** and **CSS**.  
+This portfolio showcases my skills, projects, and contact information in a clean and visually appealing way.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
+[**View Portfolio**](https://my-react-portf-git-bdfb8a-durgavenkataganesh-avireddys-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
+- 🎨 **Dynamic Styling** with gradient animations (black + purple theme)
+- 📱 **Fully Responsive** for mobile, tablet, and desktop
+- 🖼️ Profile section with styled image
+- 💼 Project showcase with hover effects
+- 📩 Contact section with social icons
+- ✨ Smooth animations for a better user experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Styling:** CSS (custom animations, gradient backgrounds)
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
