@@ -12,7 +12,7 @@ export default function ContactMe() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Contact Info */}
+        
         <div className="footer-column">
           <h3>Contact</h3>
           <a href="mailto:your.ganeshavireddy@email.com" className="footer-link">
@@ -23,7 +23,7 @@ export default function ContactMe() {
           </a>
         </div>
 
-        {/* Social Links */}
+      
         <div className="footer-column">
           <h3>Social</h3>
           <a
@@ -52,14 +52,14 @@ export default function ContactMe() {
           </a>
         </div>
 
-        {/* Copyright */}
+         
         <div className="footer-column">
           <h3>© 2025 Ganesh Avireddy</h3>
           <p>Crafted with 💜 in React</p>
         </div>
       </div>
 
-      {/* Contact Form */}
+       
       <div className="contact-form">
         <h3>Send Me a Message</h3>
         <form
