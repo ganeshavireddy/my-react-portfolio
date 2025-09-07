@@ -26,45 +26,50 @@ This portfolio showcases my skills, projects, and contact information in a clean
 ---
 
 ## 📂 Project Structure
+
+```plaintext
 my-react-portfolio/
 ├── public/
-│   ├── index.html           
-│   ├── favicon.ico          
-│   └── assets/               
+│   ├── index.html
+│   ├── favicon.ico
+│   └── assets/
 ├── src/
-│   ├── assets/             
-│   ├── components/          
+│   ├── assets/
+│   ├── components/
 │   │   ├── About.jsx
 │   │   ├── ContactMe.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Header.jsx
 │   │   ├── Projects.jsx
 │   │   └── Skills.jsx
-│   ├── styles/              
+│   ├── styles/
 │   │   ├── About.css
 │   │   ├── Contact.css
 │   │   ├── Footer.css
 │   │   ├── Header.css
 │   │   ├── Projects.css
 │   │   └── Skills.css
-│   ├── App.jsx               
-│   ├── index.js              
-│   └── ...                  
-├── .gitignore              
-├── package.json             
-├── README.md                
-└── vite.config.js          
+│   ├── App.jsx
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md    
+      
  ## 📦 Installation & Usage
+ - **Clone the repository:** 
 
-1. **Clone the repository:**
+
    git clone https://github.com/ganeshavireddy/my-react-portfolio.git
    cd my-react-portfolio
 
-2. **Initialize the project**
+- **Initialize the project:**
+
    npm init
 
-3. **Install dependencies:**
+- **Install dependencies:**
+
    npm install
 
-4. **Run the development server:**
+- **Run the development server:**
+
    npm run dev
