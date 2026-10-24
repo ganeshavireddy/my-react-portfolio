@@ -1,9 +1,9 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
- 
 .home-container {
   display: flex;
   align-items: center;
@@ -17,34 +17,33 @@ body {
   color: white;
 }
 
- 
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
- 
+
 .profile-image img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid white;
-  box-shadow: 0px 6px 30px rgba(0,0,0,0.6);
-  transition: transform 0.3s ease;
+  border: 6px solid #bb86fc;
+  box-shadow: 0px 6px 30px rgba(187, 134, 252, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-image img:hover {
-  transform: scale(1.08);
+  transform: scale(1.05);
+  box-shadow: 0px 10px 40px rgba(187, 134, 252, 0.7);
 }
 
- 
 .home-content {
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .home-content h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
   margin-bottom: 20px;
 }
 
@@ -52,17 +51,61 @@ body {
   color: #bb86fc;
 }
 
-.home-content p {
-  font-size: clamp(1.1rem, 2vw, 1.5rem);
+.home-subtitle {
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
   line-height: 1.8;
   opacity: 0.95;
+  margin-bottom: 25px;
 }
- 
+
+.home-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: linear-gradient(90deg, #7c1cdc, #bb86fc);
+  color: white;
+  box-shadow: 0 4px 15px rgba(124, 28, 220, 0.4);
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(187, 134, 252, 0.6);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #bb86fc;
+  border: 2px solid #bb86fc;
+}
+
+.secondary-btn:hover {
+  background: rgba(187, 134, 252, 0.15);
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;
     text-align: center;
     gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .home-buttons {
+    justify-content: center;
   }
 
   .profile-image img {

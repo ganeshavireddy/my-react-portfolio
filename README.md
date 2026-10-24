@@ -1,75 +1,41 @@
-# 🚀 My React Portfolio
+# 🚀 Durga Venkata Ganesh Avireddy - AI Engineering Portfolio
 
-A modern, responsive, and animated portfolio website built with **React.js** and **CSS**.  
-This portfolio showcases my skills, projects, and contact information in a clean and visually appealing way.
+A modern, responsive, and animated portfolio website for **Durga Venkata Ganesh Avireddy**, showcasing expertise in **Generative AI, Model Context Protocol (FastMCP) servers, Agentic AI architectures, and Grounded RAG pipelines**.
 
 ## 🌐 Live Preview
-[**View Portfolio**](https://my-react-portf-git-bdfb8a-durgavenkataganesh-avireddys-projects.vercel.app/)
+[**View Live Portfolio**](https://my-react-portf-git-bdfb8a-durgavenkataganesh-avireddys-projects.vercel.app/)
 
 ---
 
-## 📌 Features
-- 🎨 **Dynamic Styling** with gradient animations (black + purple theme)
-- 📱 **Fully Responsive** for mobile, tablet, and desktop
-- 🖼️ Profile section with styled image
-- 💼 Project showcase with hover effects
-- 📩 Contact section with social icons
-- ✨ Smooth animations for a better user experience
+## 📌 Featured Highlights
+- 🤖 **Agentic AI & FastMCP Focus:** Showcases CineRAG and autonomous tool integration for LLM clients (Claude Desktop, Cursor).
+- 🔍 **Hybrid RAG Pipelines:** Dense Faiss vector search + Sparse BM25 token matching with Reciprocal Rank Fusion (RRF).
+- 🛡️ **AI Safety & Benchmarking:** 1.0 Recall@5, 1.0 MRR, strict source attribution, and anti-hallucination guardrails.
+- 🎨 **Dynamic Cosmic UI:** Deep black and glowing violet animated gradients with responsive card layouts.
+- 📱 **Fully Responsive:** Tailored for mobile, tablet, and desktop viewing.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js
-- **Styling:** CSS (custom animations, gradient backgrounds)
+- **Frontend:** React 19, Vite, React Icons
+- **Styling:** CSS3 (Keyframe animations, Flexbox, CSS Grid)
 - **Deployment:** Vercel
 
 ---
 
-## 📂 Project Structure
+## 📦 Local Development
 
-```plaintext
-my-react-portfolio/
-├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   └── assets/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── About.jsx
-│   │   ├── ContactMe.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Projects.jsx
-│   │   └── Skills.jsx
-│   ├── styles/
-│   │   ├── About.css
-│   │   ├── Contact.css
-│   │   ├── Footer.css
-│   │   ├── Header.css
-│   │   ├── Projects.css
-│   │   └── Skills.css
-│   ├── App.jsx
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md    
-      
- ## 📦 Installation & Usage
- - **Clone the repository:** 
+```bash
+# Clone the repository
+git clone https://github.com/ganeshavireddy/my-react-portfolio.git
+cd my-react-portfolio
 
+# Install dependencies
+npm install
 
-   git clone https://github.com/ganeshavireddy/my-react-portfolio.git
-   cd my-react-portfolio
+# Run the local development server
+npm run dev
 
-- **Initialize the project:**
-
-   npm init
-
-- **Install dependencies:**
-
-   npm install
-
-- **Run the development server:**
-
-   npm run dev
+# Build for production
+npm run build
+```
