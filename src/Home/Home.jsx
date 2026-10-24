@@ -4,7 +4,7 @@ import profileImage from "./profile.jpg";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div id="home" className="home-container">
       <div className="profile-image">
         <img src={profileImage} alt="Profile" />
       </div>

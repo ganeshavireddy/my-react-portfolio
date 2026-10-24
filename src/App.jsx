@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React from 'react'
+import Navbar from './Navbar/Navbar'
 import Home from './Home/Home'
 import About from './About/About'
 import Education from './Education/Education'
@@ -8,11 +9,9 @@ import Contact from './Contact/Contact'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-        
+      <Navbar />
       <Home />
       <About />
       <Education />
